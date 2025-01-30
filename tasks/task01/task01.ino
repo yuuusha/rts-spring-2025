@@ -13,7 +13,7 @@ Pin leds[] = {
   { &PORTB, (1 << PD2) },
 };
 
-double intervals[] = {10000, 1000, 500, 100, 50};
+unsigned long intervals[] = {10000, 1000, 500, 100, 50};
 int prev[] = {0, 0, 0, 0, 0};
 int states[] = {0, 0, 0, 0, 0};
 
